@@ -1,0 +1,15 @@
+
+.btn {
+    border: crimson solid 0.1rem;
+    text-align: center;
+    height: 50px;
+    border-radius: 12px;
+    background-color: white;
+  
+  }
+
+  .selectFile{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+  }
