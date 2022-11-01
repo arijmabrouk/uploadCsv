@@ -23,7 +23,7 @@ const UploadCsvFile = ({ open }) => {
     </li>
   ));
   useEffect(() => {
-    setFile(file);
+    setFile(files);
     console.log(file);
     formData.append("form", jsonToCSV(file));
     for (const pair of formData.entries()) {
